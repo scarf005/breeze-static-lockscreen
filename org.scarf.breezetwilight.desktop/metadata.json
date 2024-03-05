@@ -141,5 +141,6 @@
         "Version": "2.0",
         "Website": "https://www.kde.org"
     },
+    "X-Plasma-APIVersion": "2",
     "X-Plasma-MainScript": "defaults"
 }
