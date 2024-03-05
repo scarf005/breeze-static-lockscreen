@@ -17,10 +17,10 @@ Image=Next
 cursorTheme=breeze_cursors
 
 [kwinrc][WindowSwitcher]
-LayoutName=org.kde.breeze.desktop
+LayoutName=org.scarf.breeze.desktop
 
 [kwinrc][DesktopSwitcher]
-LayoutName=org.kde.breeze.desktop
+LayoutName=org.scarf.breeze.desktop
 
 [kwinrc][org.kde.kdecoration2]
 library=org.kde.breeze
