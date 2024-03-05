@@ -16,7 +16,6 @@ import org.kde.plasma.workspace.components 2.0 as PW
 
 import org.kde.plasma.private.sessions 2.0
 import "../components"
-import "../components/animation"
 
 PlasmaCore.ColorScope {
 
@@ -37,7 +36,6 @@ PlasmaCore.ColorScope {
             root.notification += i18nd("plasma_lookandfeel_org.kde.lookandfeel","Unlocking failed");
             graceLockTimer.restart();
             notificationRemoveTimer.restart();
-            rejectPasswordAnimation.start();
             lockScreenUi.hadPrompt = false;
         }
 
@@ -106,11 +104,6 @@ PlasmaCore.ColorScope {
         active: false
         source: "ChangeSession.qml"
         visible: false
-    }
-
-    RejectPasswordAnimation {
-        id: rejectPasswordAnimation
-        target: mainBlock
     }
 
     MouseArea {
